@@ -477,6 +477,20 @@ mark,
   max-width: 100%;
   height: auto;
 }
+.img-fluid2 {
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width:1000px) {
+
+  /* your conditional / responsive CSS inside this condition */
+
+  .img-fluid2 {
+    max-width: 50%;
+    height: auto;
+  }
+
+}
 
 .img-thumbnail {
   padding: 0.25rem;
